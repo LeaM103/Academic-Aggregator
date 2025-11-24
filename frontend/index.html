@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="view port" content="width=device-width, initial-scale=1"/>
+        <title>Academic Aggregator</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>ACADEMIC RESOURCE AGGREGATOR</h1>
+            <div class="search-row">
+      <input id="q" placeholder="Search books and papers (e.g. machine learning)" />
+      <button id="searchBtn">Search</button>
+    </div>
+    <div id="filters" class="filters">
+      <label><input type="checkbox" id="showBooks" checked /> Books</label>
+      <label><input type="checkbox" id="showPapers" checked /> Papers</label>
+      <select id="sortSelect">
+        <option value="relevance">Sort: Relevance</option>
+        <option value="year_desc">Year ↓</option>
+        <option value="year_asc">Year ↑</option>
+      </select>
+    </div>
+    <div id="results"></div>
+  </div>
+  <script src="app.js"></script>
+        </div>
+    </body>
+</html>

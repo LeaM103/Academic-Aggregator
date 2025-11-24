@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; background: #f7f9fc; color: #222; }
+.container { width: 900px; margin: 20px auto; background: #fff; padding: 18px; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+.search-row { display:flex; gap:8px; margin-bottom:12px; }
+#q { flex:1; padding:8px; }
+button { padding:8px 12px; }
+.result { border-bottom:1px solid #eee; padding:10px 0; }
+.badge { padding:3px 6px; background:#eee; border-radius:4px; font-size:12px; }
