@@ -1,2 +1,0 @@
-# Use ssh with single-character flags only (-i for identity file)
-ssh -i ~/.ssh/mykey ubuntu@52.87.227.106 
