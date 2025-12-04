@@ -1,8 +1,1 @@
-# Academic Aggregator (local demo)
-
-Run two backends and a proxy locally to simulate load-balanced deployment.
-
-## Requirements
-- Node.js installed
-
-## Install
+This web application runs using a multi-port architecture. The frontend runs on port 3000 and handles the user interface. All search requests are sent to a backend API server running on port 3001, which communicates with external APIs (such as the ArXiv API) and returns processed results. A proxy/load balancer runs on port 8080 and routes incoming traffic to the correct service. This separation of frontend, backend, and proxy makes the system easier to manage, avoids CORS issues, and demonstrates how load balancing works in production environments.”
